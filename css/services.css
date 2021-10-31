@@ -64,79 +64,109 @@ nav li a:hover{
 nav li a:hover::before{
     width: 100%;
 }
+.headerone{
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
 .servsec{
     margin: 0;
     padding: 0;
     background-color:#F0ECD9;
     height: 50vh;
-}
-.headerone{
-    text-align: center;
-    font-size: 28px;
-    color: darkgreen;
+
 }
 .sprinkimg{
     border: black solid 1px;
     width: 25vw;
     height: 35vh;
-    float: left;
-    margin-left: 3%;
+    position: relative;
+    left: 15px;
 }
 .sprink{
-    margin-left: 30%;
-}
-.sprinkserv{
-    font-size: 30px;
-}
-.listone{
-    font-size: 20px;
+    position: absolute;
+    top: 205px;
+    left: 30%;
 }
 .servsectwo{
-    position: absolute;
-    top: 67%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #F0ECD9;
-    height: 100vh;
+    height: 50vh;
 }
 .lawnimg{
     border: black solid 1px;
-    height: 35vh;
     width: 25vw;
-    float: right;
-    margin-top: 5%;
-    margin-right: 3%;
-    margin-bottom: 15%;
-}
-.servsectwo::after{
-    display: table;
-    content: '';
-    clear: both;
+    height: 35vh;
+    position: relative;
+    left: 73.8%;
 }
 .lawns{
-    margin-left: 53%;
-    margin-top: 5%;
+    position: absolute;
+    top: 65%;
+    left: 57%;
 }
-.lawnhead{
-    font-size: 30px
-}
-.listtwo{
-    font-size: 20px
+.servsecthree{
+    margin: 0;
+    padding: 0;
+    background-color: #F0ECD9;
+    height: 50vh;
 }
 .gardserv{
     border: black solid 1px;
-    height: 35vh;
     width: 25vw;
-    margin-top: 15%;
-    margin-left: 3%;
+    height: 35vh;
+    position: relative;
+    left: 15px;
 }
-.addhead{
-    float: right;
-    margin-top: 15%;
-    margin-right: 20%;
-}
-.listthree{
+.addition{
     position: absolute;
+    top: 114%;
     left: 30%;
-    bottom: 23.5%;
-    font-size: 20px;
+}
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(56, 48, 48);
+}
+.social-links{
+    display: flex;
+    
+}
+.social-links ul{
+    display: flex;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    position: relative;
+    left: 200px;
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #66923D;
+}
+.quick-links{
+    display: flex;
+}
+.quick-links ul{
+    display: flex;
+}
+.quick-items{
+    list-style: none;
+}
+.quick-items a{
+    position: relative;
+    left: 700px;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: #66923D;
+}
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: #66923D;
+    font-size: 18px;
+    background-color:rgb(56, 48, 48);
 }
