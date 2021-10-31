@@ -1,0 +1,117 @@
+body{
+    background-image: url(../img/backgroundlawn.jpg);
+    background-size: cover;
+    margin: 0;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 90px;
+    padding: 10px 0;
+}
+nav{
+    float: right;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    margin-left: 48px;
+    padding-top: 45px;
+    position: relative;
+}
+nav li a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color:darkgreen;
+    font-size: 18px;
+}
+nav li a::before{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 7px;
+    background-color: darkgreen;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+nav li a:hover{
+    background-color: transparent;
+}
+nav li a:hover::before{
+    width: 100%;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn{
+    display: block;
+    background: purple;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
