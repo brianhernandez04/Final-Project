@@ -65,7 +65,7 @@ nav li a:hover::before{
     width: 100%;
 }
 section{
-    background-color: grey;
+    background-color: #F0ECD9;
     height: 85vh;
 }
 .aboutheader{
@@ -87,10 +87,10 @@ section{
 }
 .dreamp{
     text-align: center;
-    margin-top: 9%;
+    margin-top: 11%;
     margin-left: 49%;
     margin-right: 10%;
-    font-size: 17px;
+    font-size: 20px;
 }
 .inner-footer{
     margin: 0;

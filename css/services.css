@@ -88,6 +88,12 @@ nav li a:hover::before{
     top: 205px;
     left: 30%;
 }
+.sprinkserv{
+    font-size: 28px;
+}
+.listone{
+    font-size: 22px;
+}
 .servsectwo{
     margin: 0;
     padding: 0;
@@ -104,7 +110,13 @@ nav li a:hover::before{
 .lawns{
     position: absolute;
     top: 65%;
-    left: 57%;
+    left: 55.5%;
+}
+.lawnhead{
+    font-size: 28px;
+}
+.listtwo{
+    font-size: 22px;
 }
 .servsecthree{
     margin: 0;
@@ -123,6 +135,12 @@ nav li a:hover::before{
     position: absolute;
     top: 114%;
     left: 30%;
+}
+.addhead{
+    font-size: 28px;
+}
+.listthree{
+    font-size: 22px;
 }
 .inner-footer{
     margin: 0;
