@@ -122,3 +122,12 @@ nav li a:hover::before{
     font-size: 18px;
     background-color:rgb(56, 48, 48);
 }
+.ytvid{
+    position: relative;
+    left: 33%;
+}
+.ytheader{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
